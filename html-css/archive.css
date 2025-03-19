@@ -1,0 +1,149 @@
+@import url("./font-color.css");
+
+/* General Styles */
+
+h1,
+h2 {
+  font-family: "TitleFontEnglish", serif;
+  color: var(--crimson);
+}
+
+h3,
+h4,
+p {
+  font-family: "InfoFontEnglish", sans-serif;
+  color: var(--copper);
+}
+
+body {
+  font-family: "InfoFontEnglish", sans-serif;
+  background-color: var(--ashen);
+  color: var(--ghost);
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header section */
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.title {
+  font-family: "TitleFontEnglish", serif;
+  font-size: 3rem;
+  color: var(--crimson);
+  text-shadow: 2px 2px var(--soot);
+}
+
+/* Main & content */
+
+.content {
+  padding: 20px;
+}
+
+main {
+  font-size: 1.3rem;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.intro {
+  font-family: "ScrambledFont", sans-serif;
+  font-size: 1.3rem;
+  color: var(--moss);
+  line-height: 1.8;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* Chapter section */
+
+.chapter {
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: var(--gray);
+  color: var(--amber);
+  border-radius: 10px;
+  border: 2px solid var(--moss);
+}
+
+.chapter-title {
+  font-family: "TitleFontEnglish", serif;
+  font-size: 2rem;
+  color: var(--amber);
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.fragment > p {
+  font-family: "ScrambledFont", sans-serif;
+  font-size: 1.1rem;
+  color: var(--copper);
+}
+
+.fragment-text {
+  font-family: "ScrambledFont", sans-serif;
+  color: var(--crimson);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.hastily-written {
+  background-color: var(--midnight);
+  border: 2px solid var(--crimson);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.hastily-written p {
+  font-family: "ScrambledFont", sans-serif;
+  color: var(--ghost);
+  font-size: 1.3rem;
+  line-height: 1.8;
+  font-style: italic;
+}
+
+/* Archive section */
+.archive {
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: var(--amber);
+
+  border-radius: 10px;
+  border: 2px solid var(--moss);
+}
+
+.gray-color {
+  color: var(--gray);
+}
+
+.archive-title {
+  font-family: "TitleFontEnglish", serif;
+  font-size: 2rem;
+  color: var(--moss);
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Accent color */
+
+a {
+  color: var(--amber);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--crimson);
+  text-decoration: underline;
+}

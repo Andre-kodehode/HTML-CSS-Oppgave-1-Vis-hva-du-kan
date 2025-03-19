@@ -1,0 +1,61 @@
+@import url("/html-css/font-color.css");
+
+body {
+  font-family: "InfoFontEnglish", sans-serif;
+  background-color: var(--ashen);
+  color: var(--copper);
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.title {
+  color: var(--crimson);
+  font-family: "TitleFontEnglish", serif;
+  font-size: 3rem;
+  text-shadow: 2px 2px var(--soot);
+}
+
+.intro {
+  font-family: "InfoFontEnglish", sans-serif;
+  color: var(--soot);
+  line-height: 1.8;
+  margin-bottom: 10px;
+}
+
+main {
+  font-size: 1.3rem;
+  text-align: center;
+  margin: 100px;
+  padding: 20px;
+  background-color: var(--gray);
+  border-radius: 10px;
+  border: 2px solid var(--moss);
+}
+
+/* Accent color */
+
+a {
+  color: var(--amber);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--amber);
+  text-decoration: underline;
+}
+
+.content .scrambled-text {
+  font-family: "ScrambledFont", sans-serif;
+  font-size: 1.1rem;
+}
+
+.warning-text {
+  color: var(--crimson);
+  font-family: "TitleFontEnglish", serif;
+}
