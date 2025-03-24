@@ -36,7 +36,7 @@ function revealAllPages() {
 
   if (PagesHidden.style.display === "block") {
     PagesHidden.style.display = "none";
-    btnText.innerHTML = "Shown ll pages & credits";
+    btnText.innerHTML = "Shown all pages & credits";
     console.log("Content hidden");
   } else {
     PagesHidden.style.display = "block";
