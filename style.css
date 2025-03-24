@@ -25,13 +25,13 @@ header {
   font-family: "InfoFontEnglish", sans-serif;
   color: var(--soot);
   line-height: 1.8;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 main {
   font-size: 1.3rem;
   text-align: center;
-  margin: 100px;
+  margin: 0 100px 100px 100px;
   padding: 20px;
   background-color: var(--gray);
   border-radius: 10px;
@@ -42,17 +42,17 @@ main {
 
 a {
   color: var(--amber);
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:hover {
-  color: var(--amber);
+  color: var(--crimson);
   text-decoration: underline;
 }
 
 .content .scrambled-text {
   font-family: "ScrambledFont", sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
 }
 
 .warning-text {

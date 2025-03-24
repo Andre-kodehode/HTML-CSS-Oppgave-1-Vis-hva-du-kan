@@ -8,17 +8,10 @@ h2 {
   color: var(--crimson);
 }
 
-h3,
-h4,
-p {
-  font-family: "InfoFontEnglish", sans-serif;
-  color: var(--copper);
-}
-
 body {
   font-family: "InfoFontEnglish", sans-serif;
   background-color: var(--ashen);
-  color: var(--ghost);
+  color: var(--copper);
   margin: 0;
   padding: 0;
   line-height: 1.6;
@@ -85,6 +78,7 @@ main {
   letter-spacing: 2px;
 }
 
+/* Fragment section */
 .fragment > p {
   font-family: "ScrambledFont", sans-serif;
   font-size: 1.1rem;
@@ -92,11 +86,13 @@ main {
 }
 
 .fragment-text {
-  font-family: "ScrambledFont", sans-serif;
+  font-family: "TitleFontEnglish", serif;
   color: var(--crimson);
   font-weight: bold;
   text-decoration: underline;
 }
+
+/* Hastily chapter section */
 
 .hastily-written {
   background-color: var(--midnight);
@@ -123,14 +119,14 @@ main {
   border: 2px solid var(--moss);
 }
 
-.gray-color {
+.archive > p {
   color: var(--gray);
 }
 
 .archive-title {
   font-family: "TitleFontEnglish", serif;
   font-size: 2rem;
-  color: var(--moss);
+  color: var(--crimson);
   margin-bottom: 10px;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -139,11 +135,21 @@ main {
 /* Accent color */
 
 a {
-  color: var(--amber);
-  text-decoration: none;
+  color: var(--gray);
+  text-decoration: underline;
 }
 
 a:hover {
   color: var(--crimson);
   text-decoration: underline;
+}
+
+/* Forbidden HTML */
+.forbidden-container {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#readMore {
+  display: none;
 }
