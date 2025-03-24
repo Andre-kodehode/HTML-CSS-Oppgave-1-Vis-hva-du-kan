@@ -150,6 +150,8 @@ a:hover {
   padding: 20px;
 }
 
-#readMore {
+#readMore,
+#forbiddenReadMore1,
+#forbiddenReadMore2 {
   display: none;
 }
