@@ -1,0 +1,58 @@
+/* Main Colors */
+:root {
+  --crimson: #8b0000;
+  --gray: #0e2121;
+  --amber: #c88a56;
+  --copper: #b66e4f;
+  --ghost: #f8f8ff;
+  --moss: #7cae18;
+  --soot: #1c1c1c;
+  --ashen: #4f4a4a;
+  --midnight: #191970;
+}
+
+@font-face {
+  font-family: "InfoFontEnglish";
+  src: url("../Fonts/InfoFont/InfoFontEnglish.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ScrambledFont";
+  src: url("../Fonts/InfoFont/ScrambledFont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TitleFontEnglish";
+  src: url("../Fonts/InfoFont/TitleFontEnglish.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Button Credits Gabriel “GMLYRA” Miranda*/
+button {
+  padding: 10px 20px;
+  background-color: var(--gray); /* A dark wood-like brown */
+  color: var(--amber); /* A parchment-like off-white */
+  border: 2px solid #c0a080; /* A lighter brown border */
+  font-family: "Goudy Bookletter 1911", serif; /* A font with an old-style feel */
+  font-size: 18px;
+  text-shadow: 1px 1px 0px #a67c52; /* Gives a bit of depth to the text */
+  box-shadow: 2px 2px 0px #a67c52; /* Simulates an inset look */
+  border-radius: 4px; /* Slightly rounded corners */
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--crimson); /* A lighter, worn wood color for hover */
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.3); /* A more pronounced shadow for hover */
+}
+
+button:active {
+  box-shadow: inset 1px 1px 2px 0px rgba(0, 0, 0, 0.5); /* An inset shadow for a pressed effect */
+  transform: translateY(2px); /* Moves the button down to simulate a press */
+}

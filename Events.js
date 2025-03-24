@@ -13,7 +13,6 @@ function forbiddenBtnReveal1() {
     btnText.innerHTML = "Unravel rest of the page";
     readMore.style.display = "none";
   } else {
-    readMore.style.display = "none";
     btnText.innerHTML = "Unravel less";
     readMore.style.display = "inline";
   }
@@ -26,8 +25,22 @@ function forbiddenBtnReveal2() {
     btnText.innerHTML = "Unravel rest of the page";
     readMore.style.display = "none";
   } else {
-    readMore.style.display = "none";
     btnText.innerHTML = "Unravel less";
     readMore.style.display = "inline";
+  }
+}
+
+function revealAllPages() {
+  var PagesHidden = document.getElementById("PagesHidden");
+  var btnText = document.getElementById("pages-btn");
+
+  if (PagesHidden.style.display === "block") {
+    PagesHidden.style.display = "none";
+    btnText.innerHTML = "Shown ll pages & credits";
+    console.log("Content hidden");
+  } else {
+    PagesHidden.style.display = "block";
+    btnText.innerHTML = "Hidden all pages & credits";
+    console.log("Content revealed");
   }
 }

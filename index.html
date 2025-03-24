@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="html-css/font-color.css" />
+    <link rel="stylesheet" href="html-css/global.css" />
     <link rel="shortcut icon" href="./images/favicon.jpg" type="image/x-icon" />
 
     <title>The Alchemists' Forbidden Archive</title>
@@ -16,32 +16,55 @@
       </h1>
     </header>
     <main class="content">
-      <p class="intro">
-        The truth of Ergo is not meant for all. Proceed at your own risk.
-      </p>
-      <p class="scrambled-text">
-        You have stepped into the forbidden archives of The Alchemist Order.
-        What you seek is not meant for all, and knowledge comes at a cost. The
-        history of Krat is a lie, veiled by illusions of progress and power. The
-        truth is buried beneath the cold touch of Ergo, pulsing like a dying
-        star.
-      </p>
-      <p>
-        We were the architects of miracles, the sculptors of divine energy. We
-        unlocked secrets that the world was not prepared to hold. But with every
-        revelation came a shadow, and from that shadow, the Puppets rose. The
-        Grand Covenant was never meant to break. Yet, it did.
-      </p>
-      <p class="scrambled-text">
-        Inside these archives, you will find the remnants of our greatest
-        discoveries—and our most damning mistakes. Ergo is alive. Ergo
-        remembers. Ergo twists those who seek it.
-      </p>
-      <p class="warning-text">
-        Proceed, if you must. But be warned: the deeper you go, the less of
-        yourself you may return with.
-      </p>
-      <a href="./html-css/archive.html">[Enter the Archives] </a>
+      <div>
+        <p class="intro">
+          The truth of Ergo is not meant for all. Proceed at your own risk.
+        </p>
+        <p class="scrambled-text">
+          You have stepped into the forbidden archives of The Alchemist Order.
+          What you seek is not meant for all, and knowledge comes at a cost. The
+          history of Krat is a lie, veiled by illusions of progress and power.
+          The truth is buried beneath the cold touch of Ergo, pulsing like a
+          dying star.
+        </p>
+        <p>
+          We were the architects of miracles, the sculptors of divine energy. We
+          unlocked secrets that the world was not prepared to hold. But with
+          every revelation came a shadow, and from that shadow, the Puppets
+          rose. The Grand Covenant was never meant to break. Yet, it did.
+        </p>
+        <p class="scrambled-text">
+          Inside these archives, you will find the remnants of our greatest
+          discoveries—and our most damning mistakes. Ergo is alive. Ergo
+          remembers. Ergo twists those who seek it.
+        </p>
+        <p class="warning-text">
+          Proceed, if you must. But be warned: the deeper you go, the less of
+          yourself you may return with.
+        </p>
+        <a href="./html-css/archive.html">[Enter the Archives] </a>
+      </div>
+      <div class="spacing">
+        <button id="pages-btn" onclick="revealAllPages()">
+          All pages & credits
+        </button>
+        <footer id="PagesHidden">
+          <ul>
+            <li>
+              Button style credit to
+              <a href="https://codepen.io/Gabriel-GMLYRA-Miranda/pen/jOJGorQ"
+                >Gabriel “GMLYRA” Miranda</a
+              >
+            </li>
+            <li><a href="./html-css/archive.html">Archive</a></li>
+            <li>
+              <a href="./html-css/forbidden-knowledge.html"
+                >Forbidden Knowledge</a
+              >
+            </li>
+          </ul>
+        </footer>
+      </div>
     </main>
   </body>
   <script src="./Events.js"></script>

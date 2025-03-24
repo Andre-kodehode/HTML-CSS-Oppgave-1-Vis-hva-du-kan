@@ -1,9 +1,9 @@
-@import url("./html-css/font-color.css");
+@import url("./html-css/global.css");
 
 body {
   font-family: "InfoFontEnglish", sans-serif;
   background-color: var(--ashen);
-  color: var(--copper);
+  color: var(--amber);
   margin: 0;
   padding: 0;
   line-height: 1.6;
@@ -58,4 +58,16 @@ a:hover {
 .warning-text {
   color: var(--crimson);
   font-family: "TitleFontEnglish", serif;
+}
+
+.spacing {
+  padding-top: 25px;
+}
+
+#PagesHidden {
+  display: none;
+}
+
+li {
+  text-decoration: none;
 }
