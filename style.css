@@ -61,16 +61,15 @@ a:hover {
   display: none;
 }
 
-li {
+footer > ul > li {
   list-style-type: none;
 }
 
 img {
   margin-top: 25px;
-  width: 25%;
-  height: 25%;
+  width: 319.4px;
+  height: 319.4px;
 }
-
 .img-text {
   display: block;
   margin: 0 auto;
