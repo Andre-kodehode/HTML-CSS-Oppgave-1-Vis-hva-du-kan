@@ -8,7 +8,7 @@ function revealText() {
 
 function forbiddenBtnReveal1() {
   var readMore = document.getElementById("forbiddenReadMore1");
-  var btnText = document.getElementById("reveal-btn");
+  var btnText = document.getElementById("reveal-btn1");
   if (readMore.style.display === "inline") {
     btnText.innerHTML = "Unravel rest of the page";
     readMore.style.display = "none";
@@ -21,7 +21,7 @@ function forbiddenBtnReveal1() {
 
 function forbiddenBtnReveal2() {
   var readMore = document.getElementById("forbiddenReadMore2");
-  var btnText = document.getElementById("reveal-btn");
+  var btnText = document.getElementById("reveal-btn2");
   if (readMore.style.display === "inline") {
     btnText.innerHTML = "Unravel rest of the page";
     readMore.style.display = "none";
